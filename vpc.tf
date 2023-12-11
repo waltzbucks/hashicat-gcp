@@ -1,5 +1,5 @@
 
-module "vpc" {
+module "network" {
   # source  = "app.terraform.io/ACME-TF-WORKSHOP/network/google"
   source = "terraform-google-modules/network/google"
   version = "3.4.0"
