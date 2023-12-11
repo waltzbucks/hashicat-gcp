@@ -1,6 +1,7 @@
 
 module "vpc" {
-  source  = "app.terraform.io/ACME-TF-WORKSHOP/network/google"
+  # source  = "app.terraform.io/ACME-TF-WORKSHOP/network/google"
+  source = "terraform-google-modules/network/google"
   version = "3.4.0"
 
   project_id   = var.project
